@@ -1,0 +1,23 @@
+[type="checkbox"]{display:none;}
+
+label{
+    padding-left: 1.3em;
+    position: relative;
+}
+label::before{
+    content: '';
+    border: solid 1px #9e9e9e9e;
+    border-radius: 3px;
+    width: 0.95em;
+    height: 0.95em;
+    position: absolute;
+    top:4px;
+    left: 0px;
+}
+
+[type="checkbox"]:checked + label::before {
+    border-color: #62964B;
+    color: #62964B;
+    content:'\F00C';
+    font-family: "Font Awesome 5 Free";
+}

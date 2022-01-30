@@ -1,0 +1,74 @@
+/* html {
+  background-color: #62964B;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  height: 100vh;
+  background-color: #62964B !important;
+} */
+
+.App {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navigation {
+  justify-content: space-between;
+}
+
+.buscar-desafio-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buscar-desafio-container .buscador {
+  display: flex;
+  align-items: center;
+}
+
+.buscar-desafio-container .form-control {
+  padding: 10px;
+  min-width: 300px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #62964B;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table tbody>tr>td.vert-align {
+   vertical-align: middle; 
+  }
+
